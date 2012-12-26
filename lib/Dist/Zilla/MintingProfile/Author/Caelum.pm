@@ -19,6 +19,11 @@ Dist::Zilla::MintingProfile::Author::Caelum - Basic Minting Profile for @AVAR
 =head1 SYNOPSIS
 
     dzil new -P Author::Caelum Your::Dist::Name
+    cd Your-Dist-Name
+    # crate new github repo
+    git init
+    git remote add origin git@github.com:username/your-dist-name.git
+    git add * .gitignore
 
 =head1 DESCRIPTION
 
