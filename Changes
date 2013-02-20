@@ -1,6 +1,7 @@
 Revision history for Dist::Zilla::MintingProfile::Author::Caelum
 
 {{$NEXT}}
+    - use install_command = cpanm . by default
 
 0.06 2013-02-20 16:54:08
     - use my new Git::PushInitial and remove confusing git docs from synopsis
