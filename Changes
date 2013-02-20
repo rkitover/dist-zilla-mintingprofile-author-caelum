@@ -1,6 +1,7 @@
 Revision history for Dist::Zilla::MintingProfile::Author::Caelum
 
 {{$NEXT}}
+    - use my new Git::PushInitial and remove confusing git docs from synopsis
 
 0.05 2013-01-13 13:16:36
     - lowercase github repo name (now uses @AVAR defaults for github repo)

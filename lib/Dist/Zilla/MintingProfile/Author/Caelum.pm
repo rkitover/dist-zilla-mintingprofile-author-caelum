@@ -9,6 +9,7 @@ use Moose;
 use Dist::Zilla::PluginBundle::AVAR ();
 use Dist::Zilla::Plugin::Git::Init ();
 use Dist::Zilla::Plugin::GitHub::Create 0.30 ();
+use Dist::Zilla::Plugin::Git::PushInitial ();
 
 with 'Dist::Zilla::Role::MintingProfile::ShareDir';
 
@@ -22,8 +23,6 @@ Dist::Zilla::MintingProfile::Author::Caelum - Basic Minting Profile for @AVAR
 
     dzil setup
 
-    git config --global push.default simple # if you have git >= 1.8
-
     git config --global github.user GitHubLoginName
     git config --global github.password GitHubPassword
 
@@ -32,8 +31,6 @@ Dist::Zilla::MintingProfile::Author::Caelum - Basic Minting Profile for @AVAR
     cd Your-Dist-Name
 
     # edit stuff and commit
-
-    git push origin master -u # only for git < 1.8
 
     dzil release
 
