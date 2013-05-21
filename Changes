@@ -1,6 +1,7 @@
 Revision history for Dist::Zilla::MintingProfile::Author::Caelum
 
 {{$NEXT}}
+    - fix POD link to @AVAR
 
 0.07 2013-02-20 17:11:48
     - use install_command = cpanm . by default
